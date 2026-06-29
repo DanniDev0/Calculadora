@@ -3,11 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <title>Calculator</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>THE ODIN CALCULATOR</h1>
+        <div class="calculator">
+            <div id="display"></div>
+            <div class="buttons">
+                <div class="row">
+                    <button class="btn btnClear">CLEAR</button>
+                    <button class="btn btnDelete">DELETE</button>
+                </div>
+                <div class="row">
+                    <button class="btn">7</button>
+                    <button class="btn">8</button>
+                    <button class="btn">9</button>
+                    <button class="btn btn-op">÷</button>
+                </div>
+                <div class="row">
+                    <button class="btn">4</button>
+                    <button class="btn">5</button>
+                    <button class="btn">6</button>
+                    <button class="btn btn-op">x</button>
+                </div>
+                <div class="row">
+                    <button class="btn">1</button>
+                    <button class="btn">2</button>
+                    <button class="btn">3</button>
+                    <button class="btn btn-op">-</button>
+                </div>
+                <div class="row">
+                    <button class="btn">.</button>
+                    <button class="btn">0</button>
+                    <button class="btn btn-equal">=</button>
+                    <button class="btn btn-op">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="./script.js"></script>
 </body>
 </html>
