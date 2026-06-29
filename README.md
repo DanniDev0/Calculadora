@@ -1,1 +1,1 @@
-# Calculadora
+Proyecto de final de the odin project para practicar habilidades con: HTML, CSS Y JS.
